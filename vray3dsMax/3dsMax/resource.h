@@ -46,6 +46,7 @@
 #define IDC_CHECK1                      1012
 #define IDC_WARP                        1012
 #define IDC_USCALE_EDIT                 1013
+#define IDC_WARP2                       1013
 #define IDC_WEFT                        1013
 #define IDC_UMAX_OVERRIDE               1014
 #define IDC_SPECULAR_SPIN               1015
@@ -91,7 +92,6 @@
 #define cs_blend5                       1054
 #define IDC_WIFFILE_BUTTON              1055
 #define IDC_YRN_TEX_SPECULAR_BUTTON     1056
-#define IDC_WIFFILE_BUTTON2             1056
 #define IDC_EDIT_PATTERN_BUTTON         1056
 #define ed_texmap_blend_mult5           1057
 #define IDC_YARNTYPE_COMBO              1058
@@ -135,6 +135,7 @@
 #define sp_texmap_blend_mult4           1095
 #define IDC_SPECULAR_NOISE_OVERRIDE     1096
 #define sp_texmap_blend_mult5           1096
+#define IDC_PATTERN_WIDTH_EDIT          1096
 #define sp_texmap_blend_mult6           1097
 #define sp_texmap_blend_mult7           1098
 #define sp_texmap_blend_mult8           1099
@@ -174,6 +175,9 @@
 #define cb_refractMtl                   1133
 #define IDC_BUTTON_CLOSE                1196
 #define IDC_YARN_TYPE_LIST              1197
+#define IDC_PATTERN_HEIGHT_EDIT         1200
+#define IDC_PATTERN_WIDTH_SPIN          1201
+#define IDC_PATTERN_HEIGHT_SPIN         1202
 
 // Next default values for new objects
 // 
@@ -181,7 +185,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        114
 #define _APS_NEXT_COMMAND_VALUE         40001
-#define _APS_NEXT_CONTROL_VALUE         1200
+#define _APS_NEXT_CONTROL_VALUE         1205
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif

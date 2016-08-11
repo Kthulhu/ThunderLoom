@@ -304,7 +304,12 @@ public:
 					case IDC_EDIT_PATTERN_BUTTON:
 					{
 						if(HIWORD(wParam) == BN_CLICKED) {
-							StartPatternEditor(hInstance,hWnd);
+							if(sm->m_weave_parameters.pattern){
+								StartPatternEditor(hInstance,hWnd,
+									&sm->m_weave_parameters);
+								//NOTE(Vidar): Hack to update the preview ball
+								sm->pblock->SetValue(mtl_dummy,0,0.5f);
+							}
 						}
 					}
 
