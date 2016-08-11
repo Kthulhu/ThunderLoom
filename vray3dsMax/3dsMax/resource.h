@@ -31,6 +31,7 @@
 #define bm_MTLMASK                      102
 #define bm_POWERSHADER                  104
 #define IDB_LOGO                        107
+#define IDD_PATTERN_EDITOR              112
 #define st_coat1                        1001
 #define st_coat2                        1002
 #define st_coat3                        1003
@@ -43,7 +44,9 @@
 #define cb_additive                     1010
 #define IDC_SPECULAR_EDIT               1011
 #define IDC_CHECK1                      1012
+#define IDC_WARP                        1012
 #define IDC_USCALE_EDIT                 1013
+#define IDC_WEFT                        1013
 #define IDC_UMAX_OVERRIDE               1014
 #define IDC_SPECULAR_SPIN               1015
 #define IDC_USCALE_SPIN                 1016
@@ -88,6 +91,8 @@
 #define cs_blend5                       1054
 #define IDC_WIFFILE_BUTTON              1055
 #define IDC_YRN_TEX_SPECULAR_BUTTON     1056
+#define IDC_WIFFILE_BUTTON2             1056
+#define IDC_EDIT_PATTERN_BUTTON         1056
 #define ed_texmap_blend_mult5           1057
 #define IDC_YARNTYPE_COMBO              1058
 #define cs_blend6                       1059
@@ -125,10 +130,10 @@
 #define sp_texmap_blend_mult2           1092
 #define IDC_YRN_TEX_DIFFUSE_LABEL2      1093
 #define IDC_SPECULAR_NOISE_EDIT         1094
-#define IDC_SPECULAR_NOISE_SPIN         1095
-#define IDC_SPECULAR_NOISE_OVERRIDE     1096
 #define sp_texmap_blend_mult3           1094
+#define IDC_SPECULAR_NOISE_SPIN         1095
 #define sp_texmap_blend_mult4           1095
+#define IDC_SPECULAR_NOISE_OVERRIDE     1096
 #define sp_texmap_blend_mult5           1096
 #define sp_texmap_blend_mult6           1097
 #define sp_texmap_blend_mult7           1098
@@ -167,14 +172,16 @@
 #define cb_giMtl                        1131
 #define cb_reflectMtl                   1132
 #define cb_refractMtl                   1133
+#define IDC_BUTTON_CLOSE                1196
+#define IDC_YARN_TYPE_LIST              1197
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        112
+#define _APS_NEXT_RESOURCE_VALUE        114
 #define _APS_NEXT_COMMAND_VALUE         40001
-#define _APS_NEXT_CONTROL_VALUE         1196
+#define _APS_NEXT_CONTROL_VALUE         1200
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif

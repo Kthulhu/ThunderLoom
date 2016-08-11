@@ -1,0 +1,28 @@
++		hWnd	0x00000000002f0e36 {unused=??? }	HWND__ *
+-		data	0x00000000ad564790 {sm=0x0000000053aa1a20 {bsdfPool={pools=0x0000000000000000 <NULL> numThreads=0 } ...} ...}	YarnTypeDlgProcData *
+
++		hWnd	0x0000000000771a3e {unused=??? }	HWND__ *
+-		data	0x00000000ad563fd0 {sm=0x0000000053aa1a20 {bsdfPool={pools=0x0000000000000000 <NULL> numThreads=0 } ...} ...}	YarnTypeDlgProcData *
+
++		hWnd	0x00000000002313cc {unused=??? }	HWND__ *
+-		data	0x00000000ad5648b0 {sm=0x0000000053aa1a20 {bsdfPool={pools=0x0000000000000000 <NULL> numThreads=0 } ...} ...}	YarnTypeDlgProcData *
+
++		hWnd	ExchangeStorePackageManager.dll!0x0000000000b51842 (load symbols for additional information) {unused=...}	HWND__ *
+-		data	0x00000000ad564530 {sm=0x0000000053aa1a20 {bsdfPool={pools=0x0000000000000000 <NULL> numThreads=0 } ...} ...}	YarnTypeDlgProcData *
+
++		hWnd	0x0000000000771a3e {unused=??? }	HWND__ *
+-		data	0xffffffffad563fd0 {sm=??? yarn_type=??? }	YarnTypeDlgProcData *
+
+TODO
+- Remember rollup state
+- Use getter in vray shader to support textures properly
+- Add version info to save file... (Check how to handle paramblock versioning.)
+	# Might be usefull: http://docs.autodesk.com/3DSMAX/16/ENU/3ds-Max-SDK-Programmer-Guide/index.html?url=files/GUID-F35959BB-2660-492F-B082-56304C70293A.htm,topicNumber=d30e52807
+	# http://docs.autodesk.com/3DSMAX/16/ENU/3ds-Max-SDK-Programmer-Guide/index.html?url=files/GUID-F35959BB-2660-492F-B082-56304C70293A.htm,topicNumber=d30e52807
+- Fix Clone function
+- Rate of specular noise, and move it to yarn type
+
+* Pattern editor
+* Map along yarn
+* Yarn width??
+* Get rid of FIXED_TEXMAPS

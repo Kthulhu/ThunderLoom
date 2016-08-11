@@ -24,6 +24,8 @@ const int PLUGIN_VERSION= PLUGIN_VERSION_HIGH*100 + PLUGIN_VERSION_LOW;
 
 #include "helper.h"
 
+#include "PatternEditor.h"
+
 #ifdef DYNAMIC
 EVALSPECULARFUNC EvalSpecularFunc = 0;
 EVALDIFFUSEFUNC EvalDiffuseFunc = 0;
@@ -299,6 +301,13 @@ public:
 						}
 						break;
 					}
+					case IDC_EDIT_PATTERN_BUTTON:
+					{
+						if(HIWORD(wParam) == BN_CLICKED) {
+							StartPatternEditor(hInstance,hWnd);
+						}
+					}
+
 				}
 				break;
 			}
