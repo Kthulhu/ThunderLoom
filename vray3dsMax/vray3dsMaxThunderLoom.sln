@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3dsMaxPlugin", "3dsMax\3dsMaxPlugin.vcxproj", "{5A17DACE-8572-4AC1-B679-DFC296EA8557}"
 EndProject
@@ -12,6 +12,9 @@ Global
 		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|Win32 = Debug|Win32
 		Debug|x64 = Debug|x64
+		max 2014 release|Mixed Platforms = max 2014 release|Mixed Platforms
+		max 2014 release|Win32 = max 2014 release|Win32
+		max 2014 release|x64 = max 2014 release|x64
 		max 2015 release|Mixed Platforms = max 2015 release|Mixed Platforms
 		max 2015 release|Win32 = max 2015 release|Win32
 		max 2015 release|x64 = max 2015 release|x64
@@ -35,6 +38,12 @@ Global
 		{5A17DACE-8572-4AC1-B679-DFC296EA8557}.Debug|Win32.Build.0 = Debug|Win32
 		{5A17DACE-8572-4AC1-B679-DFC296EA8557}.Debug|x64.ActiveCfg = Debug|x64
 		{5A17DACE-8572-4AC1-B679-DFC296EA8557}.Debug|x64.Build.0 = Debug|x64
+		{5A17DACE-8572-4AC1-B679-DFC296EA8557}.max 2014 release|Mixed Platforms.ActiveCfg = max 2014 release|Win32
+		{5A17DACE-8572-4AC1-B679-DFC296EA8557}.max 2014 release|Mixed Platforms.Build.0 = max 2014 release|Win32
+		{5A17DACE-8572-4AC1-B679-DFC296EA8557}.max 2014 release|Win32.ActiveCfg = max 2014 release|Win32
+		{5A17DACE-8572-4AC1-B679-DFC296EA8557}.max 2014 release|Win32.Build.0 = max 2014 release|Win32
+		{5A17DACE-8572-4AC1-B679-DFC296EA8557}.max 2014 release|x64.ActiveCfg = max 2014 release|x64
+		{5A17DACE-8572-4AC1-B679-DFC296EA8557}.max 2014 release|x64.Build.0 = max 2014 release|x64
 		{5A17DACE-8572-4AC1-B679-DFC296EA8557}.max 2015 release|Mixed Platforms.ActiveCfg = max 2015 release|Win32
 		{5A17DACE-8572-4AC1-B679-DFC296EA8557}.max 2015 release|Mixed Platforms.Build.0 = max 2015 release|Win32
 		{5A17DACE-8572-4AC1-B679-DFC296EA8557}.max 2015 release|Win32.ActiveCfg = max 2015 release|Win32
@@ -71,6 +80,12 @@ Global
 		{B8691CC0-0BFB-4F3D-8ED1-AEE0A01C20F8}.Debug|Win32.Build.0 = Debug|Win32
 		{B8691CC0-0BFB-4F3D-8ED1-AEE0A01C20F8}.Debug|x64.ActiveCfg = Debug|x64
 		{B8691CC0-0BFB-4F3D-8ED1-AEE0A01C20F8}.Debug|x64.Build.0 = Debug|x64
+		{B8691CC0-0BFB-4F3D-8ED1-AEE0A01C20F8}.max 2014 release|Mixed Platforms.ActiveCfg = max 2014 release|Win32
+		{B8691CC0-0BFB-4F3D-8ED1-AEE0A01C20F8}.max 2014 release|Mixed Platforms.Build.0 = max 2014 release|Win32
+		{B8691CC0-0BFB-4F3D-8ED1-AEE0A01C20F8}.max 2014 release|Win32.ActiveCfg = max 2014 release|Win32
+		{B8691CC0-0BFB-4F3D-8ED1-AEE0A01C20F8}.max 2014 release|Win32.Build.0 = max 2014 release|Win32
+		{B8691CC0-0BFB-4F3D-8ED1-AEE0A01C20F8}.max 2014 release|x64.ActiveCfg = max 2014 release|x64
+		{B8691CC0-0BFB-4F3D-8ED1-AEE0A01C20F8}.max 2014 release|x64.Build.0 = max 2014 release|x64
 		{B8691CC0-0BFB-4F3D-8ED1-AEE0A01C20F8}.max 2015 release|Mixed Platforms.ActiveCfg = max 2015 release|Win32
 		{B8691CC0-0BFB-4F3D-8ED1-AEE0A01C20F8}.max 2015 release|Mixed Platforms.Build.0 = max 2015 release|Win32
 		{B8691CC0-0BFB-4F3D-8ED1-AEE0A01C20F8}.max 2015 release|Win32.ActiveCfg = Release|Win32
